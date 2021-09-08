@@ -2,7 +2,8 @@
     background-color: #cfdbe6;
     border-radius: 8px;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
     width: 80vw;
     align-items: center;
     padding: 1rem;
