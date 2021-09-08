@@ -1,0 +1,14 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.mat-toolbar {
+    background-color: #10214D !important;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mat-toolbar-single-row {
+    height: 100px !important;
+}

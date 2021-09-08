@@ -1,0 +1,17 @@
+<div class="restaurants__tiles" *ngFor="let restaurant of restaurants">
+    <div class="restaurants__details">
+        <p class="restaurants__details_header">{{ restaurant.address.name }}</p>
+        <p>{{ restaurant.address.street }}</p>
+        <p>{{ restaurant.address.zipCode }} {{ restaurant.address.city }}</p>
+        <p>Tel: {{ restaurant.address.phone }}</p>
+    </div>
+
+    <div class="restaurants__details">
+        <p class="restaurants__details_header">Öffnungszeiten:</p>
+        <p *ngFor="let openingHours of restaurant.openingHours">
+            {{ openingHours.days }}: {{ openingHours.hours }}
+        </p>
+    </div>
+
+
+</div>

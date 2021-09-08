@@ -1,0 +1,15 @@
+.content {}
+
+.header {
+    padding: 4rem;
+}
+
+.header__title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-family: Roboto !important;
+    font-weight: 900;
+}
